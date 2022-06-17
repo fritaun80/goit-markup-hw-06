@@ -443,20 +443,23 @@
           </div>
 
           <!-- ====== SIGN UP ===== -->
+          <p class="sign-up-title">подпишитесь на рассылку</p>
+          <form class="sign-up">
+            <label class="sign-up-label">
+              <input
+                class="sign-up-input"
+                type="text"
+                name="sign-up"
+                placeholder="E-mail"
+            /></label>
 
-          <div class="sign-up">
-            <label class="sign-up-label"> подпишитесь на рассылку</label>
-            <input
-              class="sign-up-input"
-              type="text"
-              name="sign-up"
-              placeholder="E-mail"
-            />
-          </div>
-
-          <div class="newsletter">
-            <button type="submit" class="sign-up-button">Подписаться</button>
-          </div>
+            <button type="submit" class="sign-up-button">
+              Подписаться
+              <svg class="sign-up-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
