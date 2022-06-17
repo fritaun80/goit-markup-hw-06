@@ -441,11 +441,27 @@
               </li>
             </ul>
           </div>
+
+          <!-- ====== SIGN UP ===== -->
+
+          <div class="sign-up">
+            <label class="sign-up-label"> подпишитесь на рассылку</label>
+            <input
+              class="sign-up-input"
+              type="text"
+              name="sign-up"
+              placeholder="E-mail"
+            />
+          </div>
+
+          <div class="newsletter">
+            <button type="submit" class="sign-up-button">Подписаться</button>
+          </div>
         </div>
       </div>
     </footer>
 
-    <!-- ===== BUTTON / JS ===== -->
+    <!-- ===== MODAL WINDOW ===== -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -514,8 +530,8 @@
             ></textarea>
           </div>
 
-          <!-- POLICY -->
-          <!-- <div class="policy"> -->
+          <!-- ====================POLICY=============== -->
+
           <label class="modal-policy-title">
             <input
               class="modal-checkbox"
@@ -527,8 +543,8 @@
             Соглашаюсь с рассылкой и принимаю
             <a class="modal-policy-link" href=""> Условия договора</a>
           </label>
-          <!-- </div> -->
-          <!-- POLICY -->
+
+          <!-- ========== SUBMIT BUTTON =============== -->
 
           <div class="modal-button-div">
             <button type="submit" class="send-button">Отправить</button>
@@ -536,6 +552,7 @@
         </form>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
