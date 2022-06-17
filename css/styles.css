@@ -710,6 +710,7 @@ body {
 
 .sign-up {
   margin-left: 93px;
+  min-width: 570px;
 }
 
 .sign-up-title {
