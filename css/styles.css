@@ -1037,32 +1037,48 @@ body {
 /* ============================POLICY============= */
 
 .policy {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .modal-checkbox {
   appearance: none;
+  position: absolute;
 }
 
 .icon-check {
-  position: absolute;
-  transform: translateY(30%);
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  margin-right: 7px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+}
+
+.modal-checkbox:checked + .icon-check {
+  display: inline-block;
+
+  background-image: url("/images/icon-check-2.svg");
+  border: var(--accent-color);
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .modal-policy-title {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--subcolor);
   margin-bottom: 30px;
-  padding-left: 23px;
 }
 
 .modal-policy-link {
-  color: rgba(33, 150, 243, 1);
+  color: var(--accent-color);
   text-decoration: underline;
+  padding-left: 2px;
 }
 /* ============================POLICY============= */
 
