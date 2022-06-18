@@ -1013,16 +1013,15 @@ body {
   justify-content: center;
   cursor: pointer;
 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover,
 .close-button:focus {
   fill: var(--bgc-btn-hover);
 }
-
-/* .js-send-form {
-} */
 
 .modal-title {
   font-family: inherit;
@@ -1042,9 +1041,11 @@ body {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  outline: none;
   cursor: pointer;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:hover,
@@ -1064,6 +1065,10 @@ body {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 1);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field {
@@ -1085,13 +1090,11 @@ body {
 .modal-label:hover,
 .modal-label:focus {
   fill: var(--accent-color);
-  outline: none;
 }
 
 .modal-input:hover + .modal-icon,
 .modal-input:focus + .modal-icon {
   fill: var(--accent-color);
-  outline: none;
 }
 
 .modal-textarea {
@@ -1103,7 +1106,10 @@ body {
   margin-bottom: 20px;
   padding: 12px 16px;
   cursor: pointer;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea::placeholder {
