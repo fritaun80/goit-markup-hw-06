@@ -1065,10 +1065,7 @@ body {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 1);
-
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .form-field {
@@ -1086,9 +1083,7 @@ body {
 }
 
 .modal-icon:hover,
-.modal-icon:focus,
-.modal-label:hover,
-.modal-label:focus {
+.modal-icon:focus {
   fill: var(--accent-color);
 }
 
