@@ -1081,11 +1081,7 @@ body {
 }
 
 .modal-icon:hover,
-.modal-icon:focus {
-  fill: var(--accent-color);
-  outline: none;
-}
-
+.modal-icon:focus,
 .modal-label:hover,
 .modal-label:focus {
   fill: var(--accent-color);
