@@ -1144,7 +1144,7 @@ body {
 .modal-checkbox:checked + .icon-check {
   display: inline-block;
 
-  background-image: url("/images/icon-check.svg");
+  background-image: url("./images/icon-check.svg");
   border: var(--accent-color);
   background-size: contain;
   background-origin: border-box;
