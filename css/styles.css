@@ -261,50 +261,6 @@ body {
   border-color: var(--bgc-btn-hover);
 }
 
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-
-  transition-property: opacity;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.data-modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 528px;
-  min-height: 581px;
-
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-}
-
-.data-modal-close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--main-background-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 /* ======= FEATURES ======= */
 
 .features {
@@ -979,7 +935,7 @@ body {
 
 /* ===== MODAL WINDOW ====== */
 
-.modaal__backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -1181,7 +1137,7 @@ body {
   text-decoration: underline;
   padding-left: 2px;
 }
-/* ======================SUBMIT BUTTON ============= */
+/* ====================== SUBMIT BUTTON ============= */
 
 .modal__send-button {
   min-width: 200px;
